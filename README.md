@@ -12,5 +12,5 @@
 
 
 <code>
-  efqewfeqwf
+  cout << efqewfeqwf << endl;
 </code>
