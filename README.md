@@ -16,7 +16,7 @@
 <br>
 /*換行*/
 
-<a href="http://yahoo.com"><img src="https://images2.gamme.com.tw/news2/2017/97/59/qZqapqWblqCbp6Q.jpg"></a> 
+<a href="http://yahoo.com"><img src="https://imgur.com/5Qujzsg"></a> 
 /*圖片超連結*/
 
 <table>  
@@ -32,8 +32,6 @@
 /*表格*/
 
 
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/5GWNz3P"><a href="//imgur.com/5GWNz3P"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
