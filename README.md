@@ -12,5 +12,5 @@
 
 
 <code>
-  cout << <a style="color:red;">efqewfeqwf</a> << endl;
+  cout << <a style="font-color:red;">efqewfeqwf</a> << endl;
 </code>
