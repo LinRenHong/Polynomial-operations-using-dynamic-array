@@ -18,4 +18,4 @@
 
 This is a normal paragraph:
 
-    from is a code block.
+    from nupmy import dick
