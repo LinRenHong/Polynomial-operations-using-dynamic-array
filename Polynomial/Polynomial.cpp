@@ -85,16 +85,19 @@ Polynomial Polynomial::operator - ( const Polynomial& poly )
     for( i = 0; i < S; i++ ) //迴圈從常數項開始一直到小於最短長度S
     {
         result.terms[ i ].coef = terms[ i ].coef - poly.terms[ i ].coef;
-        if( result.terms[ i ].coef == 0 ) //如果兩項相減為0
+        if( result.terms[ i ].coef == 0 && i != 0 ) //如果兩項相減為0並且不為常數項
             result.length -= 1; //將項數-1
     }
     
     for( i = L - 1; i >= S; i-- ) //迴圈從最長度L開始到最短長度S
+    {
         if( poly.length < length )
             result.terms[ i ].coef = big.terms[ i ].coef; //如果自身的項數比另一多項式要多，直接相減
-        else
+        else {
             result.terms[ i ].coef = -big.terms[ i ].coef; //如果自身的項數比另一多項式少，將剩下的加負號
-    
+            //cout << "this : " << result.terms[ i ].coef << endl;
+        }
+    }
     return result;
 }
 
@@ -172,6 +175,8 @@ void Polynomial::printPolynomial()
     {
         for( int i = length - 1; i >= 0; i-- )
         {
+//            if( i == length - 1 && terms[ length - 1 ].coef < 0 )
+//                cout << "-";
             
             if( terms[ i ].coef != 0 )
             {
@@ -272,6 +277,7 @@ void Polynomial::prepareTerm()
             else
                 temp2 += s[ i ];
             
+            
             //如果是常數項
             if( i == s.length() - 1 )
             {
@@ -297,7 +303,6 @@ void Polynomial::prepareTerm()
             //遇到x代表係數已經能確定了
             if( ( s[ i ] == 'X' || s[ i ] == 'x' ) )
             {
-                
                 
                 //如果係數為1
                 if( temp == "" )
@@ -353,7 +358,7 @@ void Polynomial::prepareTerm()
 }
 
 
-bool Polynomial::isAllZero()
+bool Polynomial::isAllZero() const
 {
     bool isZero = true;
     for( int i = 0; i < length && isZero; i++ )

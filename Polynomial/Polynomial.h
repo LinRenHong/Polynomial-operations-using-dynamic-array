@@ -39,7 +39,7 @@ public :
     
     void printPolynomial(); //印出多項式
     
-    bool isAllZero();
+    bool isAllZero() const;
     
     //取得長度
     int getLength() const {
