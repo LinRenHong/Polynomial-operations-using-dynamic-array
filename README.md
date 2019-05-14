@@ -1,5 +1,5 @@
 # Polynomial-operations-using-dynamic-array
-<h1>hello world</h1> /*h1~h6(數字越大字體預設越大)*/
+<h1>hello world</h1> //h1~h6(數字越大字體預設越大)
 
 <p>內容</p> /*內文(換行)*/
 <a>this is test!</a><a>this is test!2</a> /*內文*/
