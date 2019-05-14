@@ -16,8 +16,6 @@
 
 </code>
 
-Here is an example of AppleScript:
+This is a normal paragraph:
 
-    tell application "Foo"
-        beep
-    end tell
+    This is a code block.
