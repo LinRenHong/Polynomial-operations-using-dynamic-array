@@ -21,4 +21,4 @@ This is a normal paragraph:
     cout << "Yes" << endl;
     
    
-<a href="https://imgur.com/prXpuAX"><img src="https://i.imgur.com/prXpuAX.jpg?2" title="source: imgur.com" / width="100px"   ></a>
+<a href="https://imgur.com/prXpuAX"><img src="https://i.imgur.com/prXpuAX.jpg" width="100px"   title="source: imgur.com" / ></a>
