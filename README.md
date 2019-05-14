@@ -1,4 +1,6 @@
 # Polynomial-operations-using-dynamic-array
+
+
 <h1>hello world</h1> 
 /*h1~h6(數字越大字體預設越大)*/
 
@@ -29,6 +31,9 @@
 </table>
 /*表格*/
 
+
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/5GWNz3P"><a href="//imgur.com/5GWNz3P"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
