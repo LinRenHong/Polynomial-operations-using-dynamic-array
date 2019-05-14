@@ -1,7 +1,7 @@
 # Polynomial-operations-using-dynamic-array
 
 
-<a href="https://imgur.com/prXpuAX"><img src="https://i.imgur.com/prXpuAX.jpg?2" title="source: imgur.com" /></a>
+<a href="https://imgur.com/prXpuAX"><img src="https://i.imgur.com/prXpuAX.jpg?2" width="100px" title="source: imgur.com" /></a>
 
 <ul>
   <li>好</li>
