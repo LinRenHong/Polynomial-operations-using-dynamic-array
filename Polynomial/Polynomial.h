@@ -37,7 +37,7 @@ public :
     
     double solution( const int& ); //代值計算
     
-    void printPolynomial(); //印出多項式
+    void printPolynomial() const; //印出多項式
     
     bool isAllZero() const;
     

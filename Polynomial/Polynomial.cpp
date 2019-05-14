@@ -166,7 +166,7 @@ double Polynomial::solution( const int &x )
 }
 
 
-void Polynomial::printPolynomial()
+void Polynomial::printPolynomial() const
 {
     //如果多項式全部係數都為0
     if( isAllZero() )
